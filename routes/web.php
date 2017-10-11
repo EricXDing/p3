@@ -11,6 +11,5 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'DirectorController@index');
+Route::get('/{placeHolder}', 'DirectorController@show');
