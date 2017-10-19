@@ -8,7 +8,7 @@ class DirectorController extends Controller
 {
         //
         public function index(){
-          return 'the home page';
+          return view('content.index');
         }
 
         public function show ($placeHolder) {
