@@ -16,21 +16,11 @@
   <h3>Article II: Transaction</h3>
   The Seller shall provide offers <u><?=$gs?></u> to the Buyer. The <u><?=$gs?></u> being offered is <u><?=$gsName?></u>. In exchange, the Buyer shall provide $<u><?=$price?></u> to the Seller.</p>
 
-  <h3>Article III: </h3>
+    <?=$articleIII?>
+    <?=$nonRefundable?>
+    <?=$arbitration?>
+    <?=$textArea?>
 
-    <?php
-
-    $otherProvisions = array(
-        "1" => "The <u><?=$gs?></u> is sold as is; no refund is avaliable<br>",
-        '2' => 'In case of conflicts, the Buyer and the Seller agrees to bind themselves the decision of an arbitrator.<br>',
-        '3' => 'The Buyer and the Seller also agree to the following: <u><?=$textArea?></u>.<br>'
-    );
-
-    foreach($otherProvisions as $x => $x_value) {
-        echo $x_value;
-        echo "<br>";
-    }
-    ?>
 </div>
 
 <div>

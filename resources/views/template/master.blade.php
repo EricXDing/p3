@@ -23,13 +23,11 @@
 			padding: 10px;
 		}
 	</style>
-
-	<div>
-	  <h1>Contract Auto Compiler</h1>
-	</div>
-
     @stack('head')
 <body>
+	<div>
+		<h1>Contract Auto Compiler</h1>
+	</div>
 
 	<section>
 		@yield('content')
