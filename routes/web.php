@@ -12,8 +12,6 @@
 */
 
 Route::get('/', 'DirectorController@index');
-
-
 Route::get('/env', function () {
     dump(config('app.name'));
     dump(config('app.env'));
@@ -21,7 +19,4 @@ Route::get('/env', function () {
     dump(config('app.url'));
 });
 
-
-
-
-Route::get('/{placeHolder}', 'DirectorController@show');
+Route::get('/result', 'DirectorController@result');
