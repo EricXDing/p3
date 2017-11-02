@@ -22,22 +22,14 @@
 			margin: 5%;
 			padding: 10px;
 		}
-
 	</style>
-
-
 
 	<div>
 	  <h1>Contract Auto Compiler</h1>
 	</div>
 
     @stack('head')
-
-</head>
 <body>
-
-	<header>
-	</header>
 
 	<section>
 		@yield('content')

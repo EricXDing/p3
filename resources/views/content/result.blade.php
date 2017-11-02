@@ -14,11 +14,9 @@
 
   The purpose is between <u><?=$buyerName ?></u>, (hereinafter 'Buyer'), and <u><?=$sellerName ?></u> (hereinafter 'Seller').
   <h3>Article II: Transaction</h3>
-  The Seller shall provide offers <u><?=$gs?></u> to the Buyer. In exchange, the Buyer shall provide $<u><?=$price?></u> to the Seller.</p>
-  The <u><?=$gs?></u> being offered is <u><?=$gsName?></u>.
+  The Seller shall provide offers <u><?=$gs?></u> to the Buyer. The <u><?=$gs?></u> being offered is <u><?=$gsName?></u>. In exchange, the Buyer shall provide $<u><?=$price?></u> to the Seller.</p>
+
   <h3>Article III: </h3>
-
-
 
     <?php
 

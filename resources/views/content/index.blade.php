@@ -19,17 +19,17 @@
 <div>
   <form method='get' action='/result' id='form1'>
     <h2>Parties' Information</h2>
-     Seller's Name: <input type='text' name="sellerName" value="Seller Name">
+     Seller's Name: <input type='text' name="sellerName">
      <br>
-     Buyer's Name: <input type='text' name="buyerName" value="Buyer Name">
+     Buyer's Name: <input type='text' name="buyerName">
      <br>
 </div>
 <div>
   <h2>Goods/Services Rendered</h2>
    Is this a good or service?<br>
-   <input type='radio' name="gs" value="Good" checked>Good    <input type='radio' name="gs" value="Service">Service<br>
-   Name of the Good/Service: <input type='text' name="gsName" value="Potato"><br>
-   Final mutually agreed price: $ <input type='text' name="price" value="100"><br>
+   <input type='radio' name="gs" value='good' checked>Good    <input type='radio' name="gs" value="service">Service<br>
+   Name of the Good/Service: <input type='text' name="gsName"><br>
+   Final mutually agreed price: $ <input type='text' name="price"><br>
 </div>
 <div>
   <h2>Other Provisions</h2>
